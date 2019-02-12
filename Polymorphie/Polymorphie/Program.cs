@@ -10,6 +10,10 @@ namespace Polymorphie
     {
         static void Main(string[] args)
         {
+            Lottozahlengenerator lg = new Lottozahlengenerator();
+            lg.Generate(6,1,45); // Österreich
+            lg.Generate(6,1,49); // Deutschland
+
             Grafik g1 = new Grafik();
             g1.Farbe = "Rot";
 
