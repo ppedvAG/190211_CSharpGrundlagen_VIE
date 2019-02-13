@@ -10,6 +10,15 @@ namespace Struct_Demo
     {
         static void Main(string[] args)
         {
+            Rechteck r1 = new Rechteck(99, 88);
+
+            r1.Höhe = 100;
+            r1.Breite = 100;
+
+            // Console.WriteLine(r1.Höhe);
+           
+            Console.WriteLine("---ENDE---");
+            Console.ReadKey();
         }
     }
 }
